@@ -1,0 +1,28 @@
+print("How many days till your assignment is due)
+scanf(days)
+
+if (days > 10) {
+    pinrt(your lectures and lectures up to date?)
+    scanf(answer)
+    if (answer == yes) {
+        print(work on assignment)
+    } else {
+        printf(catch up!)
+    }
+} else if (days <= 10 && days >= 7) {
+    print(started on assignment?)
+    scan(answer)
+    if (answer == true) {
+        orint(dont forget style!)
+    } else {
+        print(ask for help)
+    }
+} else if (days < 7) {
+    print(on track?)
+    scan(answer)
+    if (answer == yes) {
+        print(you got this)
+    } else {
+        print(attend help sessions!)
+    }
+}
