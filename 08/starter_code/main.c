@@ -13,10 +13,10 @@ int main(void) {
     struct node *head = NULL;
 
     // Insert a node at the beginning of the linked list
-    head = insert_head(head, 10);
+    // head = insert_head(head, 10);
 
     // Insert a node at the beginning of the linked list
-    head = insert_head(head, 5);
+    // head = insert_head(head, 5);
 
     // Insert a node at the end of the linked list
     head = insert_tail(head, 15);
